@@ -227,6 +227,7 @@ The papers that define on-policy distillation for LLMs.
 - [SMOPD: Selective Token-Entropy Masking for Dirty-History Multi-Turn On-Policy Self-Distillation](https://arxiv.org/abs/2608.14647) *(2026)* — Drops the lowest-entropy student tokens from the distillation loss, stabilizing multi-turn OPSD better than scaling by final-answer correctness.
 - [SPEAR: Distilling Domain-Adaptive Reasoning Skeletons via Sequential Symbolic Alignment in Reinforcement Learning](https://arxiv.org/abs/2608.26550) *(2026)* — Aligns student explorations to teacher symbolic milestones by longest common subsequence, giving dense process rewards without a trained verifier. ([Code](https://github.com/zhuochunli/SPEAR))
 - [STAR-OPD: Structured Aspect-Cascade-Aware On-Policy Reward Distillation for ABSA Quadruple Extraction](https://arxiv.org/abs/2608.20831) *(2026)* — Rewards student rollouts by cascade-aware set-structured criteria, correcting the structurally invalid extraction states off-policy distillation never supervises.
+- [Distillation as Probability Transport: Routed On-Policy Distillation (RouteOPD)](https://arxiv.org/abs/2609.08337) *(2026)* — Recasts OPD as teacher-guided probability transport, coupling student-excess sources to teacher-deficit destinations with pairwise log-odds targets toward bounded teacher potentials.
 
 ### Self-Distillation
 
